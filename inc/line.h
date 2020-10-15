@@ -1,6 +1,7 @@
 #ifndef RECTANGLE_H
 #define RECTANGLE_H 
 
+#include <stdlib.h>
 #include "shape.h"
 #include <stdint.h>
 
