@@ -14,19 +14,34 @@ __edu_ciaa_nxp__
 		<li><pre><code>board.c → implementacion de las funciones de board_api.h configuracion de los pines, y funcionalidades. Configuracion de entradas, leds, etc.						</code></pre></li>
 		<li><pre><code>board_sysinit.c → definicion de todos los pines </code></pre></li>
 	</ul>
+</ul>
 
----------lib
-	---------flat.id
-	---------libs.id
-	---------link.id
-	---------mem.id
+__lib__
 
----------lpc_chip_43xx
-	---------inc -->definicion de funciones
-		
-	---------src --> implementacion de funciones
+<ul>
+	<li><p>flat.id</p></li>
+	<li><p>libs.id</p></li>
+	<li><p>link.id</p></li>
+	<li><p>mem.id</p></li>
+</ul>
 
-	---------usbd_rom -->macros de posiciones de memoria  		
+__lpc_chip_43xx__
 
----------lpc_startup/src
----------module.mk --> directorio de los archivos ejecutables y los includes.
+<ul>
+	<li><pre><code>inc → definicion de funciones</code></pre></li>
+	<li><pre><code>src → implementacion de funciones</code></pre></li>
+	<li><pre><code>usbd_rom → macros de posiciones de memoria</code></pre></li>
+</ul>
+
+__lpc_startup__
+<ul>
+	<li>src</li>
+	<ul>
+		<li>crp.c</li>
+		<li>sysinit.c</li>
+		<li>vendor_interrupt.c</li>
+	</ul>
+</ul>
+
+__module.mk__
+directorio de los archivos ejecutables y los includes.
