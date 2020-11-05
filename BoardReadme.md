@@ -16,7 +16,7 @@ __edu_ciaa_nxp__
 </ul>
 
 __lib__
-
+manejo de memoria para la placa
 <ul>
 	<li><p>flat.id</p></li>
 	<li><p>libs.id</p></li>
@@ -27,12 +27,13 @@ __lib__
 __lpc_chip_43xx__
 
 <ul>
-	<li>inc → definicion de funciones</li>
-	<li>src → implementacion de funciones</li>
-	<li>usbd_rom → macros de posiciones de memoria</li>
+	<li>inc → definicion de funciones para interfaces modulos de la placa</li>
+	<li>src → implementacion de funciones del inc</li>
+	<li>usbd_rom → configuracion de la conexion </li>
 </ul>
 
 __lpc_startup__
+inicializacion de la placa, interrupcciones 
 <ul>
 	<li>src</li>
 	<ul>
