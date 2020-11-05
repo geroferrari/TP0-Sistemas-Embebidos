@@ -3,9 +3,13 @@
 
 __edu_ciaa_nxp__
 - -inc
+.................
+
 ⋅⋅⋅⋅⋅⋅ ⋅⋅* board.h --> define MACROS para ubicar cada  componente o funcionalidad en la placa 
 		..* board_api.h --> definicion de funciones basicas y de macros para el debug
-	..*src
+.................
+
+..*src
 		..* board.c --> implementacion de las funciones de board_api.h
 					configuracion de los pines, y funcionalidades
 					Configuracion de entradas, leds, etc.
