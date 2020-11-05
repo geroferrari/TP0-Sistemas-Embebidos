@@ -2,7 +2,7 @@
 # Carpeta Board:
 
 __edu_ciaa_nxp__
-- ⋅⋅*inc
+- -inc
 ⋅⋅⋅⋅⋅⋅ ⋅⋅* board.h --> define MACROS para ubicar cada  componente o funcionalidad en la placa 
 		..* board_api.h --> definicion de funciones basicas y de macros para el debug
 	..*src
