@@ -2,6 +2,7 @@
 # Carpeta Board:
 
 __edu_ciaa_nxp__
+.................
 -inc
 .................
 
@@ -14,7 +15,7 @@ __edu_ciaa_nxp__
 					configuracion de los pines, y funcionalidades
 					Configuracion de entradas, leds, etc.
 		---------- board_sysinit.c --> definicion de todos los pines
-
+.................
 ---------lib
 	---------flat.id
 	---------libs.id
